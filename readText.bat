@@ -2,20 +2,30 @@
 rem bat para leer un fichero
 set pathTxt=prueba1.txt
 
-rem for /f "tokens=* delims=" %%i %pathTxt% do @echo %%i
+
 :A
+echo Se muestran los txt existentes en este directorio
+echo.
+FOR /R %%i in ( *.txt ) do (
+	echo %%i 
+	)
 echo Elige el fichero a leer
 echo.
 set file=
 set /p file=File:
+echo Era este el fichero?
+set /p ans=S/N?:
+if %ans%==S goto :READ
+if %ans%==N goto :ERROR
+
+:READ
 cls
 echo leyendo de %file%
 echo.
-type prueba1.txt
+type %file%
 echo.
-echo Era este el fichero?
-set ans=
-set /p ans=S/N?:
-if %ans%==s goto :A
-if %ans%==S goto :A
+GOTO:EOF&:PAUSE
+
+:ERROR
+ECHO Este no era el fichero
 goto:eof
