@@ -24,6 +24,9 @@ echo leyendo de %file%
 echo.
 type %file%
 echo.
+echo.
+echo leyendo nombres
+FOR /F "tokens=2" %%i in (%file%) do @echo %%i
 GOTO:EOF&:PAUSE
 
 :ERROR

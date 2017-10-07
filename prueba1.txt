@@ -1,3 +1,4 @@
-Esto es
-una prueba
-mi nombre, es Alex
+nombre edad roll
+ale 18 ingeniero
+ele	20 publi
+pedro 80 ingeniero
