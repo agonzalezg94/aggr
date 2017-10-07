@@ -35,7 +35,7 @@ echo.
 echo leyendo edades
 echo **************
 echo.
-FOR /F "tokens=2" %%i in (%file%) do @echo %%i
+FOR /F "tokens=2 skip=1" %%i in (%file%) do @echo %%i
 echo.
 GOTO :SEGUIR
 
@@ -43,7 +43,7 @@ GOTO :SEGUIR
 echo leyendo nombres
 echo ************************
 echo.
-FOR /F "tokens=1" %%i in (%file%) do @echo %%i
+FOR /F "tokens=1 skip=1" %%i in (%file%) do @echo %%i
 echo.
 GOTO :SEGUIR
 
@@ -51,7 +51,7 @@ GOTO :SEGUIR
 echo leyendo puestos
 echo ************************
 echo.
-FOR /F "tokens=3" %%i in (%file%) do @echo %%i
+FOR /F "tokens=3 skip=1" %%i in (%file%) do @echo %%i
 echo.
 GOTO :SEGUIR
 
