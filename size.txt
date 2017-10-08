@@ -1,0 +1,17 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 8EFC-A57B
+
+ Directorio de C:\Users\Alex\Desktop\prueba txt
+
+08/10/2017  21:09    <DIR>          .
+08/10/2017  21:09    <DIR>          ..
+08/10/2017  21:09    <DIR>          ERROR
+07/10/2017  16:17                68 prueba1.txt
+07/10/2017  16:17             1.117 readText.bat
+08/10/2017  21:09                 0 res.txt
+08/10/2017  21:09                 0 size.txt
+08/10/2017  21:09               622 sizeFiles.bat
+07/10/2017  15:10               128 test2.bat
+07/10/2017  15:10                15 test2.txt
+               7 archivos          1.950 bytes
+               3 dirs  887.201.566.720 bytes libres
